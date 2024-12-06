@@ -227,12 +227,21 @@ header {
 }
 
 .input-box {
+    position: relative;
     width: 80%;
     height: 55px;
     background: transparent;
     border: 2px solid #fff;
     border-radius: 6px;
     margin: 20px auto;
+}
+
+.input-box .icon {
+    position: absolute;
+    right: 1rem;
+    top: 0.8rem;
+    font-size: 1.5rem;
+    color: #fff;
 }
 
 .input-box input {
