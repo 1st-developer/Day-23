@@ -280,7 +280,7 @@ header {
     text-decoration: none;
 }
 
-.remember a:hover {
+.remember-forgot a:hover {
     text-decoration: underline;
 }
 
@@ -292,11 +292,29 @@ header {
 }
 
 .btn-login, .google {
-    width: 70%;
+    width: 50%;
     height: 50px;
     border-radius: 30rem;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     border: none;
     margin: auto;
     cursor: pointer;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    transition: .5s ease;
+}
+
+.btn-login {
+    background: #000;
+    color: #fff;
+}
+
+.btn-login:hover, .google:hover {
+    padding-left: 20px;
+}
+
+.google ion-icon {
+    font-size: 1.7rem;
 }
